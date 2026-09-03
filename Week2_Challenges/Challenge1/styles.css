@@ -1,0 +1,104 @@
+/* styles.css - Challenge #1 (Skeleton) */
+
+
+body {
+    background-color: rgb(206, 232, 241);
+    max-width: 800px;
+    margin: 0 auto;
+    align-content: center;
+    padding: 20px;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.site-header {
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+.tagline {
+    color: darkgray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.mascot-placeholder {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    max-width: 400px;
+}
+
+#mascot-image {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
+
+.about {
+    text-align: left;
+    color: black;
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.buy-tickets {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px aqua;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.buy-tickets:hover {
+    background-color: darkgreen;
+    transform: translateY(-2px);
+
+}
+
+.make-donation {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px purple;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+}
+
+.make-donation:hover {
+    background-color: darkblue;
+    transform: translateY(-2px);
+
+}
+
+.site-footer {
+    font-size: 12px;
+    color: gray;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
